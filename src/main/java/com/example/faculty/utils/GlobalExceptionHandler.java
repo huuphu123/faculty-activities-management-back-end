@@ -1,4 +1,4 @@
-package com.example.faculty;
+package com.example.faculty.utils;
 
 import com.example.faculty.dto.Response;
 import com.example.faculty.error.CustomException;
