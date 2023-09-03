@@ -17,6 +17,7 @@ import java.io.IOException;
 
 @RestController
 @RequestMapping("/api/v1/user")
+@CrossOrigin(origins = "*")
 public class UserController {
 
     @Autowired

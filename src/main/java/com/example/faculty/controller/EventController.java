@@ -15,6 +15,7 @@ import java.io.IOException;
 
 @RestController
 @RequestMapping("/api/v1")
+@CrossOrigin(origins = "*")
 public class EventController {
 
     @Autowired

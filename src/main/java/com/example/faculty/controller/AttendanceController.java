@@ -14,6 +14,7 @@ import java.io.IOException;
 
 @RestController
 @RequestMapping("/api/v1/user/attendance")
+@CrossOrigin(origins = "*")
 public class AttendanceController {
 
     @Autowired
